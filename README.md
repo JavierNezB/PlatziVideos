@@ -83,7 +83,7 @@ ID - Selección de un elemento específico
 **Valores absolutos**
 
 Relativos.
-Ansolutos.
+Absolutos.
 
 -----------------------------------
 

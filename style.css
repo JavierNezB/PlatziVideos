@@ -9,30 +9,51 @@ body{
     background-image: linear-gradient(to right top, #0f1123, #1e1c2f, #2d273b, #3d3247, #4e3d53);
     background-repeat: no-repeat;
 }
+
+
 header{
     width: 100%;
-    height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.container-ima-header{
+header .container-ima-header{
     grid-column: 1;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
-.container-ima-header img{
+header .container-ima-header img{
+    margin-left: 25px;
+    margin-top: 25px;
     width: 200px;
 }
 
-.container-access-header{
+header .header--container-perfil{
     grid-column: 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+header .header--container-perfil .header--menu--profile{
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+header .header-option-profile{
+    /*display: none;*/
+    grid-column: 2;
+    grid-row: 2;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: flex-start;
 }
-.container-access-header a{
-    text-decoration: none;
-    color: white;
-}
+header .header-option-profile ul{
+    list-style: none;
+    text-align: right;
 
+}
+header .header-option-profile li a{
+    color: white;
+    text-decoration: none;
+}
