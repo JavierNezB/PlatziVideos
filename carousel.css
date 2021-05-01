@@ -7,8 +7,23 @@
     display: flex;
     justify-content: center;
 }
+.carousel::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 4px;
+}
 .carousel::-webkit-scrollbar{
     display: none;
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+}
+.carousel::-webkit-scrollbar:hover{
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0, 0.2);
+}
+.carousel::-webkit-scrollbar:hover:active{
+    background: #999;
 }
 .carousel-container{
     white-space: nowrap;
