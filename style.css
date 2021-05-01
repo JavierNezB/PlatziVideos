@@ -8,6 +8,7 @@ body{
     height: 100vh;
     background-image: linear-gradient(to right top, #0f1123, #1e1c2f, #2d273b, #3d3247, #4e3d53);
     background-repeat: no-repeat;
+    font-family: 'Mulish', sans-serif;
 }
 
 
@@ -65,13 +66,51 @@ header .header-option-profile{
     display: none;
     list-style: none;
     text-align: right;
-
 }
 /*hover*/
 .header--container-perfil:hover ul, ul:hover{
     display: block;
 }
+.header-option-profile li{
+    margin: 10px 0px;
+}
 header .header-option-profile li a{
     color: white;
     text-decoration: none;
+}
+header .header-option-profile li a:hover{
+    text-decoration: underline;
+}
+
+/*MAIN*/
+main{
+    
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*justify-items: center;*/
+}
+.main-title{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.main-input{
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 70%;
+    outline: none;
+}
+::placeholder{
+    color: white;
 }
