@@ -169,5 +169,31 @@ Metodologías:
 -----------------------------------
 
 **Componentes**
+
 Todos los componentes de nuestro poryecto.
 Para utilizar componentes podemos utilizar StoryBooks.
+
+-----------------------------------
+
+**Variables, herencia, anidamiento, operadores y más**
+
+Variable - almacena un valor as: $blanco: #FFF;
+
+Anidamiento - una clase y tener más estilo para otra etiqueta.
+
+Herencia - @extend .flex; donde flex es una clase ya declarada y modificada.
+
+Mixin - parte de sass.
+
+-----------------------------------
+
+**Accesibilidad**
+
+ANDI - herramienta que nos ayuda a medir la accesibilidad.
+
+-----------------------------------
+
+**Storybooks**
+
+Guía para nuestro proyecto, donde viene cada componente de nuestro proyecto.
+se intala de: https://storybook.js.org/docs/html/get-started/introduction
